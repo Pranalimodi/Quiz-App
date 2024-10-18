@@ -1,0 +1,80 @@
+/* Home */
+.home {
+  position: relative;
+  width: 750px;
+  height: 1400px;
+  background: #FFFFFF;
+}
+
+/* bg */
+.bg {
+  position: absolute;
+  width: 750px;
+  height: 1624px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, rgba(175, 156, 243, 0) 7.92%, #AF9CF3 86.48%);
+  background-blend-mode: multiply;
+}
+
+/* Group 3 */
+.group {
+  position: absolute;
+  width: 432px;
+  height: 396px;
+  left: 159px;
+  top: 416px;
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.1));
+}
+
+/* circle */
+.circle {
+  position: absolute;
+  width: 432px;
+  height: 396px;
+  left: 159px;
+  top: 416px;
+  background: #FFFFFF;
+}
+
+/* Quiz */
+.quiz {
+  position: absolute;
+  width: 215px;
+  height: 94px;
+  left: 255px;
+  top: 571px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+  color: #FF3B3C;
+}
+
+/* Start button */
+.start-button {
+  position: absolute;
+  width: 670px;
+  height: 160px;
+  left: 40px;
+  top: 1200px;
+  background: #FF3B3F;
+  border-radius: 80px;
+}
+
+/* Start text */
+.start-text {
+  position: absolute;
+  height: 67px;
+  left: 41.04%;
+  right: 41.04%;
+  top: calc(50% - 67px / 2 + 0.5px);
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 67px;
+  color: #FFFFFF;
+}

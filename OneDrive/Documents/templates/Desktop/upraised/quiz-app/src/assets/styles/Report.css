@@ -1,0 +1,114 @@
+/* src/components/Report.css */
+
+/* Result */
+.result {
+  position: relative;
+  width: 750px;
+  height: 1624px;
+  background: #FFFFFF;
+}
+
+/* Background Rectangle */
+.rectangle-background {
+  position: absolute;
+  width: 750px;
+  height: 1624px;
+  left: 0px;
+  top: 0px;
+  background: #AF9CF3;
+  background-blend-mode: multiply;
+}
+
+/* Color Section */
+.color-section {
+  position: absolute;
+  width: 759px;
+  height: 254px;
+  left: 0px;
+  top: -97px;
+}
+
+/* Circles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.orange {
+  width: 40px;
+  height: 40px;
+  left: 476.82px;
+  top: -11px;
+  background: #FF7E00;
+}
+
+.yellow {
+  width: 20px;
+  height: 20px;
+  left: 627.82px;
+  top: 46px;
+  background: #F7C348;
+}
+
+/* Add more classes for other circles as needed... */
+
+.purple {
+  width: 12px;
+  height: 12px;
+  left: 381.65px;
+  top: 24.76px;
+  background: #49FFF4;
+  transform: rotate(-15deg);
+}
+
+/* Your Result Heading */
+.your-result {
+  width: 757px;
+  height: 59px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  color: #000000;
+  opacity: 0.8;
+  position: absolute;
+  left: 1px;
+  top: 308px;
+}
+
+/* Score Section */
+.score-section {
+  position: absolute;
+  left: 135px;
+  top: 447px;
+  width: 480px;
+  height: 347.38px;
+  background: #EBEDF5;
+}
+
+.score-box {
+  background: rgba(255, 59, 63, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.correct {
+  background: #44B77B;
+}
+
+.incorrect {
+  background: #FF3B3F;
+}
+
+/* Next Button */
+.next-button {
+  position: absolute;
+  left: 290px;
+  top: 1465px;
+  height: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+}

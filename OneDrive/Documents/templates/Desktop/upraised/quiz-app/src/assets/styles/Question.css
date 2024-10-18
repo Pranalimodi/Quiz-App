@@ -1,0 +1,60 @@
+/* Question.css */
+
+/* Question with selected choices */
+.question-container {
+  position: relative;
+  width: 750px;
+  height: 1624px;
+  background: #FFFFFF;
+}
+
+/* Background layer */
+.background {
+  position: absolute;
+  width: 750px;
+  height: 1624px;
+  left: 0px;
+  top: 0px;
+  background: #AF9CF3;
+  background-blend-mode: multiply;
+}
+
+/* Color overlay */
+.color-overlay {
+  position: absolute;
+  width: 757.33px;
+  height: 252.62px;
+  left: 0.69px;
+  top: -96.2px;
+}
+
+/* Circle styles */
+.circle {
+  position: absolute;
+  background: #FF7E00;
+  border-radius: 50%;
+}
+
+/* Other elements */
+.option {
+  position: absolute;
+  width: 670px;
+  height: 160px;
+  left: 40px;
+  top: 610px;
+  background: #F3F4FA;
+  border: 4.44444px solid #44B77B;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 45px;
+  color: #000000;
+}
